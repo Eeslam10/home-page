@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    height: auto;
+}
+
+/* HEADER */
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 2rem;
+    background: white;
+    box-shadow: 2px 1px 3px black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logo-bg {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, deepskyblue, goldenrod) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo > .logo-bg > .fa-google {
+    color: white;
+}
+
+map {
+    font-weight: bold;
+    font-size: 23px;
+    background:  linear-gradient(to right, deepskyblue, goldenrod);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* NAV */
+    nav {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem;
+        background:  linear-gradient(to right, deepskyblue, goldenrod);
+    }
+
+    .discount > p {
+        font-size: 23px;
+        font-weight: bold;
+    
+    }
+
+    nav .btns > button {
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        padding: .5rem;
+        cursor: pointer;
+    }
+
+   
+   
+
+    
+
+    /* ARTICLE */
+
+    article {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        height: 500px;
+        background-image: url(/satria-sp-UOmpylL_UaI-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    aside.left {
+        width: 50%;
+        padding: 2rem ;
+        
+    }
+
+    aside.left > h1{
+        color: white;
+        font-size: 50px;
+        margin-top: 1rem;
+
+
+    }
+
+    aside.left > p {
+        color: white;
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+
+    aside.left > button.buy {
+        margin-top: 2rem;
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        padding: .5rem;
+        background: goldenrod;
+        color: white;
+    }
+
+    aside.left > button.free {
+        margin-top: 2rem;
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        padding: .5rem;
+        background: deepskyblue;
+        color: white;
+    }
+
+    aside.right {
+        display: grid;
+        /* place-content: center; */
+        width: 300px;
+        height: 250px;
+        background: white;
+        border-radius: 20px;
+        padding: 1.5rem;
+    }
+
+    aside.right > .income > p:first-child {
+        font-size: 20px;
+        
+    }
+
+    aside.right > .income > p:last-child {
+        font-size: 30px;
+        color: deepskyblue;
+        font-weight: bold;
+        border-bottom: solid 20px deepskyblue;
+    }
+
+    aside.right > .expenses > p:first-child {
+        font-size: 20px;
+        
+    }
+
+    aside.right > .expenses > p:last-child {
+        font-size: 30px;
+        color: goldenrod;
+        font-weight: bold;
+        border-bottom: solid 20px goldenrod;
+    }
+
+    /* MAIN */
+
+
+    main > p {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .fa-laptop , .fa-book , .fa-id-card {
+        color: deepskyblue;
+    }
+
+    main > .wrapper {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        display: flex;
+        padding: 2rem;
+        gap: 2.5rem;
+    }
+
+    main > .wrapper > .box  {
+        text-align: center;
+    }
+
+    main > .wrapper > .box > p.aorem {
+        font-size: 23px;
+        margin: 15px 0 10px 0;
+    }
+
+    /* Business */
+
+    main > .businesses {
+        text-align: center;
+        background:  linear-gradient(to left, deepskyblue, goldenrod);
+    }
+
+
+
+    .businesses > p {
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+        padding-top: 50px;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    .businesses > button {
+        margin-top: 2rem;
+        border: 0;
+        border-radius: 20px;
+        width: 200px;
+        padding: .5rem;
+        background: linear-gradient(to left, deepskyblue, goldenrod);
+        margin-bottom: 4rem;
+    }
+
+    
+
+    /* SECOND-WRAPPER */
+
+main > .second-wrapper > p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     margin-top: 3rem;
+}
+
+main > .second-wrapper > .invoice {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main > .second-wrapper > .invoice > a {
+    margin: 2.5rem;
+    text-decoration: none;
+    color: lightslategray;
+}
+
+main > .second-wrapper > .invoice > a:hover {
+    margin-bottom: 1rem;
+    color: black;
+    border-bottom: solid 2px green;
+}
+
+hr {
+    margin-bottom: 5rem;
+}
+
+/* THIRD-WRAPPER */
+
+.third-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-wrapper > .report {
+    width: 50%;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+.report > p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.report > p:last-child {
+    font-size: 20px;
+}
+
+.third-image {
+    width: 30%;
+    height: 300px;
+    background-image: url(/ghen-mar-cuano-R6dSBkz32B8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+/* CHOOSE-PLAN */
+
+.choose-plan {
+    background: rgba(110, 123, 137, 0.162);
+    margin-top: 5rem;
+    text-align: center;
+  
+}
+
+.choose-plan > p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem  0 0 2rem;
+}
+
+
+/* Simple container */
+
+
+.simple-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+
+}
+
+.simple {
+    width: 300px;
+    height: 550px;
+    box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    border-radius: 5px;
+}
+
+p.paragraph {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    
+}
+
+.simple-container > .simple > hr {
+    width: 50px;
+    height: 5px;
+    color: black;
+    background: black;
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.save {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.simple-container > .simple > button {
+    width: 80%;
+    padding: .5rem;
+    background: deepskyblue;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 1.3rem;
+    font-weight: bold;
+    
+}
+
+.simple-container > .simple > button:hover {
+    background: goldenrod;
+    color: white;
+    cursor: pointer;
+}
+
+label {
+    float: left;
+    padding-left: 2rem;
+}
+
+button.features {
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    width: 12rem;
+    height: 2.8rem;
+    color: white;
+    background: rgb(47, 49, 51);
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

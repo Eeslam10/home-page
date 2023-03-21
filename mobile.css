@@ -1,0 +1,95 @@
+@media screen and (max-width: 512px) {
+
+    body {
+        max-width: 100%;
+    }
+
+
+    /* NAV */
+    nav {
+        display: block;
+        padding: 0;
+        height: 100px;
+        text-align: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        
+        
+    }
+    
+    nav .discount > p {
+        font-size: 16px;
+        font-weight: bold;
+        word-spacing: 5px;
+        padding: 15px
+    }
+    
+    
+    nav .btns > button {
+        border: 0;
+        border-radius: 20px;
+        width: 150px;
+        cursor: pointer;
+        
+    }
+
+
+    
+
+    /* Article */
+
+    article {
+        flex-direction: column;
+        width: 100%;
+        height: 800px;
+    }
+  
+    
+    /* ASIDE-LEFT */
+
+    aside.left {
+        width: 100%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.779);
+        /* padding: 2rem ; */
+    }
+    
+    aside.left > h1 {
+        font-size: 33px;
+        color: black;
+    }
+    
+    aside.left > p {
+        color: black;
+    }
+    
+    aside.left > p:first-child {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    /* ASIDE-RIGHT */
+
+    aside.right {
+      margin-top: 2.5rem;
+    }
+
+    /* MAIN */
+
+    
+
+    /* WRAPPER */
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .simple-container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+    
+}
