@@ -2,6 +2,7 @@
 
     body {
         max-width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 
@@ -9,7 +10,7 @@
     nav {
         display: block;
         padding: 0;
-        height: 100px;
+        height: 120px;
         text-align: center;
         /* display: flex; */
         /* flex-direction: column; */
@@ -18,9 +19,9 @@
     }
     
     nav .discount > p {
-        font-size: 16px;
-        font-weight: bold;
-        word-spacing: 5px;
+        font-size: 18px;
+        /* font-weight: bold; */
+        word-spacing: 7px;
         padding: 15px
     }
     
@@ -28,17 +29,16 @@
     nav .btns > button {
         border: 0;
         border-radius: 20px;
-        width: 150px;
+        width: 160px;
         cursor: pointer;
         
     }
 
 
-    
-
     /* Article */
 
     article {
+        background: white;
         flex-direction: column;
         width: 100%;
         height: 800px;
@@ -50,8 +50,7 @@
     aside.left {
         width: 100%;
         text-align: center;
-        background: rgba(255, 255, 255, 0.779);
-        /* padding: 2rem ; */
+      
     }
     
     aside.left > h1 {
@@ -63,20 +62,115 @@
         color: black;
     }
     
-    aside.left > p:first-child {
+    aside.left > p {
         font-size: 12px;
         font-weight: bold;
     }
 
-    /* ASIDE-RIGHT */
+    aside.left > button.buy {
+        height: 50px;
+        border-radius: 80px;
+        cursor: pointer;
+    }
+
+    aside.left > button.free {
+        height: 50px;
+        border-radius: 80px;
+        cursor: pointer;      
+    }
+
+    /* other-half */
+
+    .other-half {
+        width: 100%;
+        height: 350px;
+        background-image: url(/satria-sp-UOmpylL_UaI-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 
     aside.right {
-      margin-top: 2.5rem;
+        height: 200px;
+        width: 200px;
+        margin: 40px 0 0 30px
     }
+
+    
+    aside.right > .income > p:first-child {
+        font-size: 20px;
+        
+    }
+
+    aside.right > .income > p:last-child {
+        font-size: 20px;
+        color: deepskyblue;
+        font-weight: bold;
+        border-bottom: solid 20px deepskyblue;
+        /* margin-top: 20px; */
+
+    }
+
+    aside.right > .expenses > p:first-child {
+        font-size: 20px;
+        margin-top: 15px;
+        
+    }
+
+    aside.right > .expenses > p:last-child {
+        font-size: 20px;
+        color: goldenrod;
+        font-weight: bold;
+        border-bottom: solid 20px goldenrod;
+    }
+
+   
 
     /* MAIN */
 
+    main {
+        padding: .5rem;
+    }
+
+    main > .wrapper > .box > p.aorem {
+        font-size: 20px;
+        margin: 15px 0 10px 0;
+    }
+
+     /* Business */
+
+     main > .businesses { 
+        text-align: center;
+        background:  linear-gradient(to left, deepskyblue, goldenrod);
+    }
+
     
+    .businesses > p {
+        font-size: 35px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        margin-bottom: 1px;
+        
+        
+    }
+
+    .businesses > button {
+        margin-top: 2rem;
+        border: 0;
+        border-radius: 30px;
+        width: 100px;
+        padding: .5rem;
+        background: white;
+        cursor: pointer;
+        margin: 1rem;
+    }
+
+    .businesses > button:hover {
+        background: black;
+        color: white;
+    }
+
 
     /* WRAPPER */
 
@@ -84,9 +178,52 @@
         flex-direction: column;
     }
 
-    .simple-container {
+    /* SECOND-WRAPPER */
+
+    main > .second-wrapper > .invoice > a {
+        margin: 1rem;
+        text-decoration: none;
+        color: lightslategray;
+    }
+
+    /* THIRD-WRAPPER */
+
+    .third-wrapper {
         flex-direction: column;
     }
+     
+    .third-wrapper > .report {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .report > p:last-child {
+        text-align: left;
+        font-size: 20px;
+        margin-bottom: 2rem;
+        margin-left: .9rem;
+        line-height: 1.5;
+    }
+
+    .third-image {
+        width: 100%;
+        height: 300px;
+        background-image: url(/ghen-mar-cuano-R6dSBkz32B8-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 100%;
+    }
+
+    /* SIMPLE-CONTAINER */
+
+    .simple-container {
+        display: grid;
+    }
+
+    /* SIMPLE */
+
 
     .box {
         width: 100%;

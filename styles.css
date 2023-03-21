@@ -98,27 +98,32 @@ map {
         background-position: center;
         background-size: cover;
     }
-
+    
     aside.left {
         width: 50%;
         padding: 2rem ;
         
     }
 
+    .other-half {
+        width: 50%;
+    }
+
+    
     aside.left > h1{
         color: white;
         font-size: 50px;
         margin-top: 1rem;
-
-
+        
+        
     }
-
+    
     aside.left > p {
         color: white;
         font-size: 20px;
         margin-top: 1.5rem;
     }
-
+    
     aside.left > button.buy {
         margin-top: 2rem;
         border: 0;
@@ -128,7 +133,7 @@ map {
         background: goldenrod;
         color: white;
     }
-
+    
     aside.left > button.free {
         margin-top: 2rem;
         border: 0;
@@ -212,8 +217,7 @@ map {
         background:  linear-gradient(to left, deepskyblue, goldenrod);
     }
 
-
-
+    
     .businesses > p {
         font-size: 30px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
