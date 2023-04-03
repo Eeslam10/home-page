@@ -94,7 +94,7 @@ map {
         gap: 1rem;
         width: 100%;
         height: 500px;
-        background-image: url(/satria-sp-UOmpylL_UaI-unsplash.jpg);
+        background-image: url(./satria-sp-UOmpylL_UaI-unsplash.jpg);
         background-position: center;
         background-size: cover;
     }
